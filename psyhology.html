@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordophic</title>
+    <!-- Font Awesome icons-->
+    <link rel="stylesheet" href="./all.css">
+
+    <!-----------------Owl-Carousel-------->
+    <link rel="stylesheet" href="./owl.carousel.min.css">
+    <link rel="stylesheet" href="./owl.theme.default.min.css">
+
+    <!-------------------AOS Library--------------->
+    <link rel="stylesheet" href="./aos.css">
+
+    <!-- Custom Style-->
+    <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<script type="text/javascript">
+    var i = 0;
+
+    function read() {
+        if (!i) {
+            document.getElementById("more").style.display = "inline";
+            document.getElementById("dots").style.display = "none";
+            document.getElementById("button").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more").style.display = "none";
+            document.getElementById("dots").style.display = "inline";
+            document.getElementById("button").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read1() {
+        if (!i) {
+            document.getElementById("more1").style.display = "inline";
+            document.getElementById("dots1").style.display = "none";
+            document.getElementById("button1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more1").style.display = "none";
+            document.getElementById("dots1").style.display = "inline";
+            document.getElementById("button1").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read2() {
+        if (!i) {
+            document.getElementById("more2").style.display = "inline";
+            document.getElementById("dots2").style.display = "none";
+            document.getElementById("button2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more2").style.display = "none";
+            document.getElementById("dots2").style.display = "inline";
+            document.getElementById("button2").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read3() {
+        if (!i) {
+            document.getElementById("more3").style.display = "inline";
+            document.getElementById("dots3").style.display = "none";
+            document.getElementById("button3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more3").style.display = "none";
+            document.getElementById("dots3").style.display = "inline";
+            document.getElementById("button3").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read4() {
+        if (!i) {
+            document.getElementById("more4").style.display = "inline";
+            document.getElementById("dots4").style.display = "none";
+            document.getElementById("button4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more4").style.display = "none";
+            document.getElementById("dots4").style.display = "inline";
+            document.getElementById("button4").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read5() {
+        if (!i) {
+            document.getElementById("more5").style.display = "inline";
+            document.getElementById("dots5").style.display = "none";
+            document.getElementById("button5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more5").style.display = "none";
+            document.getElementById("dots5").style.display = "inline";
+            document.getElementById("button5").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+
+    function read6() {
+        if (!i) {
+            document.getElementById("more6").style.display = "inline";
+            document.getElementById("dots6").style.display = "none";
+            document.getElementById("button6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read Less";
+            i = 1;
+
+        } else {
+            document.getElementById("more6").style.display = "none";
+            document.getElementById("dots6").style.display = "inline";
+            document.getElementById("button6").innerHTML = "Read More";
+            i = 0;
+        }
+    }
+</script>
+<script>
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-169400093-2', 'auto');
+    ga('send', 'pageview');
+</script>
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+</style>
+
+<body>
+
+
+    <!------------------Navigation---------->
+    <nav class="nav" style="
+    padding-bottom: 159px;
+">
+
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="./index.html" class="textgray">WORDOPHIC</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Contact us!</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Archive</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Pages</a>
+                    </li>
+                    <li class="nav-link">
+                        <div class="dropdown">
+                            <a class="dropbtn" href="#">Categories</a>
+                            <div class="dropdown-content">
+                                <a href="./learning.html">Learning</a>
+                                <a href="./nutrition.html">Nutrition</a>
+                                <a href="./psyhology.html">Psychology</a>
+                            </div>
+                        </div>
+
+                    </li>
+                </ul>
+            </div>
+            <div class="social text-gray">
+
+            </div>
+        </div>
+    </nav>
+
+    <!--------x---------Navigation------x--->
+    <!-------- Main Site Section--------------->
+    <main>
+
+        <!-------------Site Title------->
+
+        <section class="site-title">
+
+            <div data-aos="fade-up" data-aos-delay="100">
+                <h1>Psychology</h1>
+
+            </div>
+        </section>
+        <!----x--------Site Title--x---->
+
+        <!------------------Blog Carousel------------->
+
+
+        <!----------x-------Blog Carousel--------x---->
+
+        <!---------------------Site Content------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./mental health.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 12,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Taking care of mental health</a>
+                            <p>
+                                Just like our physical health, mental fitness plays quite a significant part in our well-being. World could turn into a cringy place if it is not fed enough care.<span id="dots">...</span><span id="more" style="display: none;"> What is considered more
+                                    of a taboo can unfortunately, at times, plunge us into madness,
+                                    depression or can even lead to agony of suicide. However, there are certain measures
+                                    that can treat your panic or depressive episodes including exercise, meditation,
+                                    staying hydrated, getting enough sunshine, getting fresh
+                                    air, taking a cold shower, getting at least 6 to 8 hours of sleep, and lastly,
+                                    engaging your mind to maximize your productivity. Similarly, the edibles for it may
+                                    include anything that inclines the dopamine level (any-thing
+                                    tasty and toothsome). Because the sweetness at the end becomes the only reliable
+                                    source for take-it-easy-way. After all, you have to love yourself to be a warrior of
+                                    light and kindness to this world. Thus, mental and emotional
+                                    peace is immensely important for a person to find the passion and fulfill the
+                                    meaning of his life, and make this world a better place.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button" onclick="read()">Read More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./greatness.jpeg" class="img" alt="blog2">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 7,2020</span>
+                                <!--<span>7 comments</span>-->
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">How to achieve greatness</a>
+                            <p>
+                                Man is a product of information stored in his genes. Our genotype defines our core characteristics that we have no ability to alter. On the <span id="dots4">...</span>
+                                <span id="more4" style="display: none;"> flip side, our apparent bodily traits that may
+                                    be influenced by the nature and nurture is what we call phenotype.
+                                    A great person is neither he, who defines himself by his materialistic wealth. Nor
+                                    he, who compares himself with the others. But the one who has great sense of vision.
+                                    Thus, greatness is not specific or limited to anyone
+                                    but occupies a commonplace for all. Because all are blessed with potentials and
+                                    instincts that could be best utilized via gratitude. If you have nothing to be
+                                    grateful for, just feel the heartbeat. What is it? It is life.
+                                    This life and the cardia that can sense it, it is your greatness, and this provoking
+                                    feeling is absolutely mesmerizing! So let’s inquire about the steps towards
+                                    greatness. Answer is, it begins when you transform yourself
+                                    from animalhood to manhood.</span>
+                                <button class="btn btn-outline-primary" id="button4" onclick="read4()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./perception.jpeg" class="img" alt="blog3">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman shaikh </span>
+                                <span>&nbsp;&nbsp;June 06,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Perception controls life</a>
+                            <p>
+                                Everybody has the power of imagination. Your thoughts behold reality and your reality determines your destiny. As you dive deeper <span id="dots5">...</span>
+                                <span id="more5" style="display: none;"> into the roots of law of attraction, you
+                                    realize that your perception derives your genetic code, thereby controlling your
+                                    life. No two witted people can see the world in the same way. Their perceptions can
+                                    be accurate or inaccurate, authentic or unauthentic, thus it is more on target to
+                                    say that belief controls biology. Your beliefs create
+                                    your life. As it is said that: “You create everything that happens to you.” –Jack
+                                    Canfield People who passionately long for their dreams are the ones who transform
+                                    them into reality. If you choose to be happy, you amplify
+                                    your happiness and vibrate at such a frequency that generates influence on the
+                                    people around you with your happy aura. On the flip side, obsessing on the negative
+                                    energies ultimately constructs sickness or a gloomy world
+                                    for you. Your belief is the only thing that works on the inside and on the outside.
+                                    Hence, it is suffice to say that you are not the victim of your genetics. You are
+                                    responsible for what unfolds in your life.</span>
+                                <button class="btn btn-outline-primary" id="button5" onclick="read5()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./learning.html">Learning</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags">
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental
+                                health</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awareness</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global
+                                events</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!--------------x------Site Content----------x-->
+
+    </main>
+
+
+    <!-----x-- Main Site Section---------x----->
+
+    </------------------------Footer------------------- />
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About us</h2>
+                <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
+                    in publishing industry. "I once tried to publish a magazine but didn't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. .
+                </p>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./blogpost1.jpg" alt="insta1">
+                    <img src="./miss_eman.png" alt="insta2">
+                    <img src="./photo-of-audi-parked-near-trees-1402787.jpg" alt="insta3">
+
+                </div>
+                <div class="flex-row">
+                    <img src="./blogpost2.jpg" alt="insta4">
+                    <img src="./blogpost5.jpg" alt="insta5">
+                    <img src="./blogpost6.jpg" alt="insta6">
+
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow us</h2>
+                <p>Let us be social</p>
+                <div>
+                    <a href="https://instagram.com/3man_shaikh?igshid=eybw92nu29iu" target="_black"> Click Here to
+                        Follow Us on Instagram </a>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray"></h4>
+            Copyright ©2020 All rights reserved | made with love for Wordophic by &nbsp
+            <a href="https://instagram.com/adnankhan194?igshid=eybw92nu29iu" target="_black"> Adnan Khan </a>
+
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i></span>
+        </div>
+
+
+        </div>
+
+    </footer>
+
+
+    </------------x-----------Footer--------------x---- />
+    <!--Jquery Library File-->
+    <script src="./Jquery3.5.1.min.js"></script>
+
+
+    <!-----------------Owl-Carousel js-------->
+    <script src="./owl.carousel.min.js"></script>
+
+    <!-------------------AOS js Library--------------->
+    <script src="./aos.js"></script>
+
+    <!--Custom Javascript-->
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
