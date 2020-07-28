@@ -162,7 +162,7 @@
     
     .dropdown-content {
         display: none;
-        position: absolute;
+        position: fixed;
         background-color: #f1f1f1;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px transparent;
@@ -187,15 +187,19 @@
     .dropdown:hover .dropbtn {
         background-color: #3e8e41;
     }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 359px;
+        }
+    }
 </style>
 
 <body>
 
 
     <!------------------Navigation---------->
-    <nav class="nav" style="
-    padding-bottom: 159px;
-">
+    <nav class="nav screen">
 
         <div class="nav-menu flex-row">
             <div class="nav-brand">

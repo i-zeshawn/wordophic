@@ -411,6 +411,7 @@ main .post-content .post-title a {
 
 .nav .nav-items .nav-link:hover {
     background-color: var(--midnight);
+    position: fix;
 }
 
 .nav .nav-items .nav-link:hover a {
