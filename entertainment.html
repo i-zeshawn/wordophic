@@ -34,6 +34,69 @@
     ga('create', 'UA-169400093-2', 'auto');
     ga('send', 'pageview');
 </script>
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 359px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            overflow-wrap: anywhere;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
 <script type="text/javascript">
     var i = 0;
 
@@ -149,51 +212,6 @@
         }
     }
 </script>
-<style>
-    .dropbtn {
-        font-size: 16px;
-        border: none;
-    }
-    
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: fixed;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px transparent;
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-    }
-    
-    @media only screen and (max-width: 600px) {
-        .screen {
-            padding-bottom: 359px;
-        }
-    }
-</style>
 
 <body>
 
@@ -213,7 +231,7 @@
             <div>
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-link">
                         <div class="dropdown">
@@ -226,20 +244,20 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-link">
+                    <!-- <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Pages</a>
-                    </li>
+                    </li> -->
                     <li class="nav-link">
                         <div class="dropdown">
                             <a class="dropbtn" href="#">Categories</a>
                             <div class="dropdown-content">
                                 <a href="./learning.html">Learning</a>
                                 <a href="./nutrition.html">Nutrition</a>
-                                <a href="./psyhology.html">Psychology</a>
-                                <a href="./fashion.html">Psychology</a>
+                                <a href="./psychology.html">Psychology</a>
+                                <a href="./fashion.html">Fashion</a>
                                 <a href="./health.html">Health</a>
                                 <a href="./entertainment.html">Entertainment</a>
 
@@ -263,7 +281,8 @@
 
         <section class="site-title">
 
-            <div data-aos="fade-up" data-aos-delay="100">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+
                 <h1>Entertainment</h1>
 
             </div>
@@ -272,10 +291,6 @@
 
         <!------------------Blog Carousel------------->
 
-
-        <!----------x-------Blog Carousel--------x---->
-
-        <!---------------------Site Content------------->
 
         <section class="container">
             <div class="site-content">
@@ -295,7 +310,173 @@
                             <a href="#">Why should boys have all the fun? It's the women who are making this world a
                                 loving place</a>
                             <p>
-                                Women never enjoyed the prestige and footing as they stand by it now. Even in patriarchal societies, women have been out-performing their due-roles in every walk of life with their <span id="dots2">...</span>
+                                Women never enjoyed the prestige and footing as they stand by it now. Even in patriarchal societies, women have been out-performing their due-roles in every walk of life with their
+                                <span id="dots2">...</span>
+                                <span id="more2" style="display: none;">twofold productive capacity as compared to men.
+                                    They deserve to be treated with utmost esteem to equip them with social, financial
+                                    and matrimonial independence. Their involvement in every field of life outshines
+                                    their social
+                                    capabilities. Women preserve human race and are entitled to freedom of sentiments to
+                                    put forward their opinions on public, legislative and religious matters. Therefore,
+                                    they must be designated to pursue their passions.
+                                    Without their involvement, the pace of scientific and technological development of
+                                    one’s nation would be extremely compromised. The global history is full of the names
+                                    of the rising stars who were eminent pundits, poets,
+                                    teachers, suffis and businesswomen exiling in their respective fields. Women have
+                                    been illuminating their potentials since forever in the form of Hellen Keller,
+                                    Benazir Bhutto or Margaret Thatcher. Currently, these
+                                    beacons of hope are Hilary Clinton, Angelina Jolie, Malala Yousafzai, Oprah Winfrey,
+                                    Jane Goodall, Beyonce, Jacinda Ardern and so on. Even in digital space, they have
+                                    earned a significant place by becoming influencers,
+                                    fashion-stylists, makeup artists, digital creators and bloggers. In retrospect, the
+                                    nations can only prosper by ensuring gender equality and women rights irrespective
+                                    of
+                                    their ethnic, religious or societal details.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button2" onclick="read2()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <hr>
+
+
+
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./smallscalebusiness.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 5,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Supporting small-scale businesses</a>
+                            <p>
+                                There is a pressing need to educate masses regarding supporting small-scale businesses as they constitute a major share of the economy. Small <span id="dots6">...</span>
+                                <span id="more6" style="display: none;">scale industries should be reinforced and
+                                    promoted to encourage
+                                    and financially support the businessmen to increase
+                                    their productivity and help them expand their line of work. This way, the market
+                                    remains regulated and
+                                    affordable for consumers belonging to each and every socioeconomic segment.
+                                    Additionally, the
+                                    stability of a local business
+                                    is directly related with its reach, sales and profit earned. Initiating from the
+                                    scratch, with limited
+                                    resources and capital to sustain long-term, these businesses are more prone to
+                                    collapse if not
+                                    supported. Hence, they
+                                    have to work harder to attain limelight and grab audience in the market. The
+                                    important thing is that
+                                    unlike lavish designer brands that loot their clients at triple rates and preach an
+                                    extravagant
+                                    lifestyle, small-scale
+                                    businesses charge way less and target a wider population. Let us all educate
+                                    ourselves with the idea
+                                    of simpler living and need-based worthwhile shopping experience that benefits not
+                                    only the clients,
+                                    but facilitates the
+                                    entrepreneurs to fuel up their business spaces.
+                                </span>
+                                <button class="btn btn-outline-primary" id="button6" onclick="read6()">Read
+                                    More</button>
+
+                            </p>
+
+                        </div>
+                    </div>
+                    <hr>
+
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Category</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="./learning.html">Learning</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
+                                <span>(00)</span>
+                            </li>
+
+
+                        </ul>
+                    </div>
+
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Newsletter</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags">
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;News</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Media</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nutrition</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="100">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mental
+                                health</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Awareness</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Global
+                                events</span>
+                            <span class="tag flex-row" data-aos="flip-up" data-aos-delay="200">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Learning</span>
+
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+
+        <!----------x-------Blog Carousel--------x---->
+
+        <!---------------------Site Content------------->
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./womenplaceinsociety.jpeg" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span>&nbsp;&nbsp;Posted by: Eman Shaikh </span>
+                                <span>&nbsp;&nbsp;June 9,2020</span>
+
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Why should boys have all the fun? It's the women who are making this world a
+                                loving place</a>
+                            <p>
+                                Women never enjoyed the prestige and footing as they stand by it now. Even in patriarchal societies, women have been out-performing their due-roles in every walk of life with their
+                                <span id="dots2">...</span>
                                 <span id="more2" style="display: none;">twofold productive capacity as compared to men.
                                     They deserve to be treated with utmost esteem to equip them with social, financial
                                     and matrimonial independence. Their involvement in every field of life outshines
@@ -426,6 +607,8 @@
             </div>
         </section>
 
+
+
         <!--------------x------Site Content----------x-->
 
     </main>
@@ -435,15 +618,14 @@
 
     </------------------------Footer------------------- />
 
-    <footer class="footer">
-        <div class="container">
-            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
                 <h2>About us</h2>
                 <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
-                    in publishing industry. "I once tried to publish a magazine but didn't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
                     online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
-                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. .
-                </p>
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
             </div>
             <div class="instagram" data-aos="fade-left" data-aos-delay="200">
                 <h2>Instagram</h2>

@@ -34,7 +34,69 @@
     ga('create', 'UA-169400093-2', 'auto');
     ga('send', 'pageview');
 </script>
-
+<style>
+    .dropbtn {
+        font-size: 16px;
+        border: none;
+    }
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px transparent;
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    
+    .dropdown:hover .dropdown-content {
+        display: flex;
+    }
+    
+    .dropdown:hover .dropbtn {
+        background-color: #3e8e41;
+    }
+    
+    .screen {
+        padding-bottom: 50px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .screen {
+            padding-bottom: 359px;
+        }
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            overflow-wrap: anywhere;
+        }
+    }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+</style>
 <script type="text/javascript">
     var i = 0;
 
@@ -150,51 +212,6 @@
         }
     }
 </script>
-<style>
-    .dropbtn {
-        font-size: 16px;
-        border: none;
-    }
-    
-    .dropdown {
-        position: relative;
-        display: inline-block;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: fixed;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px transparent;
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-    
-    .dropdown-content a:hover {
-        background-color: #ddd;
-    }
-    
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    
-    .dropdown:hover .dropbtn {
-        background-color: #3e8e41;
-    }
-    
-    @media only screen and (max-width: 600px) {
-        .screen {
-            padding-bottom: 359px;
-        }
-    }
-</style>
 
 <body>
 
@@ -214,7 +231,7 @@
             <div>
                 <ul class="nav-items">
                     <li class="nav-link">
-                        <a href="#">Home</a>
+                        <a href="./index.html">Home</a>
                     </li>
                     <li class="nav-link">
                         <div class="dropdown">
@@ -227,23 +244,22 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-link">
+                    <!-- <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Pages</a>
-                    </li>
+                    </li> -->
                     <li class="nav-link">
                         <div class="dropdown">
                             <a class="dropbtn" href="#">Categories</a>
                             <div class="dropdown-content">
                                 <a href="./learning.html">Learning</a>
                                 <a href="./nutrition.html">Nutrition</a>
-                                <a href="./psyhology.html">Psychology</a>
+                                <a href="./psychology.html">Psychology</a>
                                 <a href="./fashion.html">Fashion</a>
                                 <a href="./health.html">Health</a>
                                 <a href="./entertainment.html">Entertainment</a>
-
 
                             </div>
                         </div>
@@ -265,7 +281,8 @@
 
         <section class="site-title">
 
-            <div data-aos="fade-up" data-aos-delay="100">
+            <div class="site-background" data-aos="fade-up" data-aos-delay="100">
+
                 <h1>Learning</h1>
 
             </div>
@@ -273,6 +290,7 @@
         <!----x--------Site Title--x---->
 
         <!------------------Blog Carousel------------->
+
 
 
         <!----------x-------Blog Carousel--------x---->
@@ -386,15 +404,27 @@
                         <h2>Category</h2>
                         <ul class="category-list">
                             <li class="list-items" data-aos="fade-left" data-aos-delay="100">
-                                <a href="./psychology.html">Psychology</a>
-                                <span>(00)</span>
-                            </li>
-                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                                 <a href="./learning.html">Learning</a>
                                 <span>(00)</span>
                             </li>
                             <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./psychology.html">Psychology</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                                 <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
                                 <span>(00)</span>
                             </li>
 
@@ -437,15 +467,14 @@
 
     </------------------------Footer------------------- />
 
-    <footer class="footer">
-        <div class="container">
-            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+    <footer class="footer ">
+        <div class="container ">
+            <div class="about-us " data-aos="fade-right " data-aos-delay="200 ">
                 <h2>About us</h2>
                 <p> Welcome to Wordophic! It is the brainchild of Adnan Khan and Eman Ahmad Shaikh which highlights different flavors of life. As far as its journey is concerned, Wordophic commenced when we identified the lack of space for writers and prosers
-                    in publishing industry. "I once tried to publish a magazine but didn't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
+                    in publishing industry. "I once tried to publish a magazine but didn 't know the publication process." -Eman Ahmad Shaikh. This idea popped up the next significant step of Wordophic in mind. It took some days in research to grow Pakistan's
                     online ecosystem. Wordophic has dogged belief that the right to be published should not be fourwalled or limited upto certain writing topics but to be secular in writings. So the contents are written by our in-house team which showcases
-                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. .
-                </p>
+                    its work and beget healthy discussions. Wordophic also helps students master public writing signature, building self-esteem and learn about literature and narration. . </p>
             </div>
             <div class="instagram" data-aos="fade-left" data-aos-delay="200">
                 <h2>Instagram</h2>

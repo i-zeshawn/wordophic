@@ -47,7 +47,7 @@
     
     .dropdown-content {
         display: none;
-        position: fixed;
+        position: absolute;
         background-color: #f1f1f1;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px transparent;
@@ -66,18 +66,36 @@
     }
     
     .dropdown:hover .dropdown-content {
-        display: block;
+        display: flex;
     }
     
     .dropdown:hover .dropbtn {
         background-color: #3e8e41;
     }
     
+    .screen {
+        padding-bottom: 50px;
+    }
+    
     @media only screen and (max-width: 600px) {
         .screen {
             padding-bottom: 359px;
         }
+        .dropdown:hover .dropdown-content {
+            display: flex;
+            overflow-wrap: anywhere;
+        }
     }
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
+    /* @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+        .screen {
+            padding-bottom: 50px;
+        }
+    } */
 </style>
 <script type="text/javascript">
     var i = 0;
@@ -199,9 +217,7 @@
 
 
     <!------------------Navigation---------->
-    <nav class="nav screen" style="
-    
-">
+    <nav class="nav screen">
 
         <div class="nav-menu flex-row">
             <div class="nav-brand">
@@ -228,12 +244,12 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-link">
+                    <!-- <li class="nav-link">
                         <a href="#">Archive</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Pages</a>
-                    </li>
+                    </li> -->
                     <li class="nav-link">
                         <div class="dropdown">
                             <a class="dropbtn" href="#">Categories</a>
@@ -621,6 +637,18 @@
                             </li>
                             <li class="list-items" data-aos="fade-left" data-aos-delay="200">
                                 <a href="./nutrition.html">Nutrition</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./fashion.html">Fashion</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./health.html">Health</a>
+                                <span>(00)</span>
+                            </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="./entertainment.html">Entertainment</a>
                                 <span>(00)</span>
                             </li>
 
